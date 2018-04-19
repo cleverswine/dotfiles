@@ -21,3 +21,10 @@ cp -f manjaro-defaults/.xinitrc $HOME/
 #          wpa-ssid myssid
 #          wpa-psk <wpa-psk output from above>
 # ifup wlan0=guest
+
+# sudo
+# apt install sudo
+# addgroup sudo
+# usermod -aG sudo USERNAME
+# visudo
+#   %sudo ALL = (ALL) ALL
