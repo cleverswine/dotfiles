@@ -5,3 +5,22 @@ git clone https://github.com/cleverswine/dotfiles.git
 # list fonts
 fc-list
 
+# rxvt themes
+git clone https://github.com/logico-dev/Xresources-themes
+
+# in .Xresources
+#include "/path-to/Xresources-theme/theme.Xresources"
+
+# investigate...
+apt install xclip
+URxvt.copyCommand:  xclip -i -selection clipboard
+URxvt.pasteCommand: xclip -o -selection clipboard
+URxvt.keysym.Mod4-c: perl:clipboard:copy
+URxvt.keysym.Mod4-v: perl:clipboard:paste
+URxvt.keysym.Mod4-C-v: perl:clipboard:paste_escaped
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keysym.C-Escape: perl:keyboard-select:activate
+URxvt.keysym.M-u: perl:url-select:select_next
