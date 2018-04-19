@@ -1,26 +1,9 @@
-apt install xinit x11-xserver-utils i3 i3blocks vim git fonts-noto
+[su] apt install xinit x11-xserver-utils i3 i3blocks vim git fonts-noto
 
 git clone https://github.com/cleverswine/dotfiles.git
-
-# list fonts
-fc-list
+[su] cp -r dotfiles/manjaro-scripts/* /usr/bin/
+cp dotfiles/i3config $HOME/.config/i3/config
+cp dotfiles/.Xresources $HOME/
 
 # rxvt themes
 git clone https://github.com/logico-dev/Xresources-themes
-
-# in .Xresources
-#include "/path-to/Xresources-theme/theme.Xresources"
-
-# investigate...
-apt install xclip
-URxvt.copyCommand:  xclip -i -selection clipboard
-URxvt.pasteCommand: xclip -o -selection clipboard
-URxvt.keysym.Mod4-c: perl:clipboard:copy
-URxvt.keysym.Mod4-v: perl:clipboard:paste
-URxvt.keysym.Mod4-C-v: perl:clipboard:paste_escaped
-URxvt.keysym.M-c: perl:clipboard:copy
-URxvt.keysym.M-v: perl:clipboard:paste
-URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
-URxvt.keysym.M-Escape: perl:keyboard-select:activate
-URxvt.keysym.C-Escape: perl:keyboard-select:activate
-URxvt.keysym.M-u: perl:url-select:select_next
