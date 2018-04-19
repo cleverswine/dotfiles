@@ -1,0 +1,4 @@
+apt install xinit x11-xserver-utils
+apt install i3 vim git
+
+git clone https://github.com/cleverswine/dotfiles.git
