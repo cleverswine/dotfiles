@@ -2,7 +2,7 @@
 
 # [su] apt install xinit x11-xserver-utils i3 i3blocks vim git fonts-noto
 
-git clone https://github.com/cleverswine/dotfiles.git
+# git clone https://github.com/cleverswine/dotfiles.git
 git clone https://github.com/logico-dev/Xresources-themes
 
 mkdir $HOME/bin
