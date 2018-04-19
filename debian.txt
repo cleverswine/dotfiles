@@ -1,7 +1,8 @@
 [su] apt install xinit x11-xserver-utils i3 i3blocks vim git fonts-noto
 
 git clone https://github.com/cleverswine/dotfiles.git
-[su] cp -r dotfiles/manjaro-scripts/* /usr/bin/
+mkdir $HOME/bin
+cp -r dotfiles/manjaro-scripts/* $HOME/bin/
 cp dotfiles/i3config $HOME/.config/i3/config
 cp dotfiles/.Xresources $HOME/
 
