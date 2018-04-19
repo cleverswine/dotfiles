@@ -6,16 +6,7 @@ Xft.hintstyle:  hintslight
 Xft.lcdfilter:  lcddefault
 
 URxvt.font:           9x15,xft:Noto Sans Mono
-URxvt.copyCommand:    xclip -i -selection clipboard
-URxvt.pasteCommand:   xclip -o -selection clipboard
-URxvt.keysym.Mod4-c:  perl:clipboard:copy
-URxvt.keysym.Mod4-v:  perl:clipboard:paste
-URxvt.keysym.Mod4-C-v: perl:clipboard:paste_escaped
-URxvt.keysym.M-c:     perl:clipboard:copy
-URxvt.keysym.M-v:     perl:clipboard:paste
-URxvt.keysym.M-C-v:   perl:clipboard:paste_escaped
-URxvt.keysym.M-Escape: perl:keyboard-select:activate
-URxvt.keysym.C-Escape: perl:keyboard-select:activate
-URxvt.keysym.M-u:     perl:url-select:select_next
+URxvt*scrollBar:      false
+URxvt*cursorBlink:    true
 
 #include "/home/knoone/Xresources-themes/xcolors-tango.Xresources"
