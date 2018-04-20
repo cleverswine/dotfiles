@@ -17,6 +17,6 @@ echo -e "auto $IW\niface lo inet loopback\niface $IW inet dhcp\n\twpa-ssid $1\n\
 ifup $IW
 sleep 10
 
-apt install xinit x11-xserver-utils i3 i3blocks vim git fonts-noto chromium sudo
+apt install xinit x11-xserver-utils i3 i3blocks vim git fonts-noto chromium sudo xcursor-themes
 usermod -aG sudo knoone
 # visudo
