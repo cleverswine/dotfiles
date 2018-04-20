@@ -200,7 +200,7 @@ bar {
 	position top
 
 	# Using custom i3status.conf
-	# status_command i3status -c ~/.config/i3/i3status.conf
+	status_command i3status -c ~/.config/i3/i3status.conf
 	# Using i3blocks
 	# status_command i3blocks -c ~/.config/i3/i3blocks.conf
 
