@@ -18,6 +18,6 @@ if !(ping -q -w 1 -c 1 `ip r | grep default | cut -d ' ' -f 3` &>/dev/null); the
     ifup $IW
     sleep 10
 fi
-apt install -y xinit x11-xserver-utils i3 i3blocks vim git fonts-noto chromium sudo xcursor-themes
+apt install -y xinit x11-xserver-utils i3 i3blocks vim git fonts-noto chromium sudo xcursor-themes xbacklight
 usermod -aG sudo knoone
 # visudo
