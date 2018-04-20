@@ -11,7 +11,7 @@ fi
 if [ ! -d .fonts ]; then
   mkdir .fonts
 fi
-cp -rf dotfiles/manjaro-scripts/* bin/
+cp -rf dotfiles/mine/i3exit bin/
 cp -f dotfiles/mine/i3config .config/i3/config
 cp -f dotfiles/mine/i3blocks.conf .config/i3/
 cp -f dotfiles/mine/i3status.conf .config/i3/
