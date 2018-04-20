@@ -172,11 +172,11 @@ bar {
 		#active_workspace   #333333 #5f676a #ffffff
 	}
 	# i3bar position
-	# position top
-	position bottom
-	# status_command i3status
+	position top
+	# position bottom
+	status_command i3status
 	# Using custom i3status.conf
-	# status_command i3status -c ~/.config/i3/i3status.conf
+	status_command i3status -c ~/.config/i3/i3status.conf
 	# Using i3blocks
-	status_command i3blocks -c ~/.config/i3/i3blocks.conf
+	# status_command i3blocks -c ~/.config/i3/i3blocks.conf
 }
