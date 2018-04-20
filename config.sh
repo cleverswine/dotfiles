@@ -18,4 +18,4 @@ cp -f dotfiles/mine/i3status.conf .config/i3/
 cp -f dotfiles/mine/xresources ./.Xresources
 cp -f dotfiles/mine/bashrc ./.bashrc
 cp -f dotfiles/mine/profile ./.profile
-cp -f dotfiles/mine/fonts/* ./.fonts/
+cp -rf dotfiles/mine/fonts/* ./.fonts/
