@@ -8,7 +8,7 @@ Xft.lcdfilter:  lcddefault
 Xcursor.theme:  xcursor-breeze
 Xcursor.size:   0
 
-URxvt.font:           9x15,xft:Noto Sans Mono
+URxvt.font:           9x15,pango:Noto Sans Mono 9
 URxvt*scrollBar:      false
 URxvt*cursorBlink:    true
 

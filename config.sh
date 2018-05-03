@@ -14,3 +14,4 @@ fi
 cp -rf dotfiles/mine/.config ./
 cp -f dotfiles/mine/.profile ./
 cp -f dotfiles/mine/.Xresources ./
+cp -f dotfiles/mine/background.png ./Pictures/
