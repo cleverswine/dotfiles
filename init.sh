@@ -2,7 +2,10 @@
 
 set -euo pipefail
 
-apt install -y xinit x11-xserver-utils i3 i3blocks vim git fonts-noto chromium sudo xcursor-themes breeze-cursor-theme xbacklight
-usermod -aG sudo knoone
+# assumes sudo is installed and configured for user
+# apt install sudo && usermod -aG sudo knoone
+
+apt install xinit x11-xserver-utils i3 rxvt-unicode vim git fonts-font-awesome fonts-noto breeze-cursor-theme
+
 # visudo
 # %sudo ALL=NOPASSWD: /sbin/halt, /sbin/reboot, /sbin/poweroff
