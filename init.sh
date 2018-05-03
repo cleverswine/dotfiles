@@ -6,7 +6,10 @@ set -euo pipefail
 # assumes sudo is installed and configured for user
 # apt install sudo && usermod -aG sudo knoone
 
-sudo apt-get install -y xinit x11-xserver-utils i3 rxvt-unicode vim git fonts-font-awesome fonts-noto breeze-cursor-theme lxappearance
+sudo apt-get install -y xinit x11-xserver-utils i3 rxvt-unicode vim git \
+    fonts-font-awesome fonts-noto xfonts-terminus breeze-cursor-theme lxappearance
+
+# sudo apt-get install cinnamon lightdm
 
 echo -e "\nexport EDITOR=/usr/bin/vim" >> .profile
 
