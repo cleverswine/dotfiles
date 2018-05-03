@@ -16,7 +16,7 @@ echo -e "\nexport EDITOR=/usr/bin/vim" >> .profile
 if [ ! -d Xresources-themes ]; then
   git clone https://github.com/logico-dev/Xresources-themes
 fi
-if [ ! -d .config ]; then
+if [ -d .config ]; then
   mv -f .config .config-original
 fi
 cp -rf dotfiles/mine/.config ./
