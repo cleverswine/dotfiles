@@ -7,7 +7,8 @@ set -euo pipefail
 # apt install sudo && usermod -aG sudo knoone
 
 sudo apt-get install -y xinit x11-xserver-utils i3 rxvt-unicode vim git \
-    fonts-font-awesome fonts-noto xfonts-terminus breeze-cursor-theme lxappearance
+    fonts-font-awesome fonts-noto xfonts-terminus breeze-cursor-theme lxappearance \
+    alsamixergui
 
 # sudo apt-get install cinnamon lightdm
 
