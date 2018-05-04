@@ -21,4 +21,7 @@ if [ -d .config ]; then
 fi
 cp -rf dotfiles/mine/.config ./
 cp -f dotfiles/mine/.Xresources ./
+if [ ! -d Pictures ]; then
+  mkdir Pictures
+fi
 cp -f dotfiles/mine/background.png ./Pictures/
