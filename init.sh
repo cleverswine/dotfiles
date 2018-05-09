@@ -10,7 +10,8 @@ sudo apt-get install -y xinit x11-xserver-utils i3 rxvt-unicode vim git \
     fonts-font-awesome fonts-noto xfonts-terminus breeze-cursor-theme lxappearance \
     alsamixergui
 
-# sudo apt-get install cinnamon-core gnome-themes-standard gdm3 gvfs-fuse
+# sudo apt-get install xinit x11-xserver-utils cinnamon-core gnome-themes-standard gdm3 gvfs-fuse
+# sudo apt-get install xinit x11-xserver-utils gdm3 xfce4 xfce4-goodies gigolo mate-icon-theme-faenza arc-theme
 
 echo -e "\nexport EDITOR=/usr/bin/vim" >> .profile
 
