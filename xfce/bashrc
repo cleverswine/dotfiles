@@ -1,0 +1,18 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias l="eza -al --group-directories-first --group -I .git"
+alias l1="eza -al --group-directories-first --group -R -L 2 -T -I .git"
+alias l2="eza -al --group-directories-first --group -R -L 3 -T -I .git"
+alias l3="eza -al --group-directories-first --group -R -L 4 -T -I .git"
+alias rmbin="find . -type d '(' -name bin -or -name obj -or -name TestResults ')' -print0 | xargs -0 rm -rf"
+alias gss="git status -s"
+alias gst="git status"
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+PS1='[\u@\h \W]\$ '
