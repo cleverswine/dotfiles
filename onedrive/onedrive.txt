@@ -1,0 +1,6 @@
+sudo systemctl --user enable onedrive
+sudo systemctl --user start onedrive
+
+systemctl --user status onedrive.service
+journalctl --user-unit=onedrive -f
+
